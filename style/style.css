@@ -90,7 +90,6 @@
 }
 
 .containar{
-    border: 1px solid red;
     padding: 44px 0px;
 }
 
@@ -103,8 +102,7 @@
 }
 
 #section1 .cart .item{
-    border: 2px solid yellow;
-    /* box-shadow: 2px 67px gray; akhane kaj ace  */
+    /* border: 2px solid yellow; */
     height: 250px;
     display: flex;
     flex-direction: column;
@@ -129,14 +127,11 @@ p{
 }
 
 #section2{
-    border: 1px solid green;
     width: 100%;
-    /* height: 200px; */
     margin-bottom: 10px;
 }
 
 #section2 .containar{
-    border: 1px solid red;
     padding: 120px;
     display: flex;
     gap: 60px;
@@ -147,7 +142,6 @@ p{
 #section2 .containar .cart-left{
     display: flex;
     justify-content: center;
-    /* border:1px solid #30B868; */
     width: 100%;
     height: 100%;
 }
@@ -157,7 +151,6 @@ p{
     height: 300px;
 }
 #section2 .containar .cart-right{
-    /* border:1px solid #30B868; */
     width: 100%;
     height: 100%;
     display: flex;
@@ -171,12 +164,9 @@ p{
 }
 
 
-#section3 .container{
-    border: 1px solid red;
-}
+
 #section3 .container .cart{
     background-color: #F7F6F2;
-    border: 1px solid green;
     margin: 2px 120px 120px 120px;
 
 }
