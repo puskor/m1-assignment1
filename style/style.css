@@ -59,9 +59,11 @@
     color: white;
     border: 1px solid;
 }
-/* #hero .cart i{
-    color: blueviolet;
-} */
+
+#hero .cart .btn2:hover{
+    backdrop-filter: blur(500px);
+}
+
 .target{
     display: flex;
     background-color: white;
@@ -103,6 +105,8 @@
 
 #section1 .cart .item{
     /* border: 2px solid yellow; */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+
     height: 250px;
     display: flex;
     flex-direction: column;
