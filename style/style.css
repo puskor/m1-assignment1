@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Inter', sans-serif;
 }
 
 .btn{
@@ -9,10 +10,14 @@
     border-radius: 5px;
     color: white;
     border: 0px;
+    cursor: pointer;
+
    
 }
 .btn:hover{
     background-color: red;
+    cursor: pointer;
+
 }
 
 #top nav{
@@ -62,6 +67,7 @@
 
 #hero .cart .btn2:hover{
     backdrop-filter: blur(500px);
+    cursor: pointer;
 }
 
 .target{
@@ -160,6 +166,12 @@ p{
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+#section2 .containar .cart-right #change{
+    color: #30B868;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
 }
 
 #section2 .containar .cart-right .carrect{
