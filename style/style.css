@@ -1,0 +1,217 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn{
+    padding: 10px 16px;
+    background-color: #30B868;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+   
+}
+.btn:hover{
+    background-color: red;
+}
+
+#top nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#top nav .name{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#top nav img{
+    height: 60px;
+    width: 140px;
+}
+
+#hero{
+    
+    background-image: url("../assets/hero-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .cart{
+    
+    color: white;
+    padding: 120px 120px 160px 120px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+#hero .cart .color-change{
+    color: #30B868;
+}
+
+#hero .cart .btn2{
+    background: transparent;
+    padding: 10px 16px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid;
+}
+/* #hero .cart i{
+    color: blueviolet;
+} */
+.target{
+    display: flex;
+    background-color: white;
+    color: #30B868;
+    padding: 1px 5px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#section1 .navname{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+#section1 .cart img{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.containar{
+    border: 1px solid red;
+    padding: 44px 0px;
+}
+
+#section1 .cart{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    gap: 10px;
+}
+
+#section1 .cart .item{
+    border: 2px solid yellow;
+    /* box-shadow: 2px 67px gray; akhane kaj ace  */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#section1 .cart .item h1{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    color:#627382
+}
+#navp{
+    color: white;
+}
+
+#section2{
+    border: 1px solid green;
+    width: 100%;
+    /* height: 200px; */
+    margin-bottom: 10px;
+}
+
+#section2 .containar{
+    border: 1px solid red;
+    padding: 120px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+
+}
+#section2 .containar .cart-left{
+    display: flex;
+    justify-content: center;
+    /* border:1px solid #30B868; */
+    width: 100%;
+    height: 100%;
+}
+#section2 .containar .cart-left img{
+    
+    width: 300px;
+    height: 300px;
+}
+#section2 .containar .cart-right{
+    /* border:1px solid #30B868; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#section2 .containar .cart-right .carrect{
+    display: flex;
+    gap: 10px;
+}
+
+
+#section3 .container{
+    border: 1px solid red;
+}
+#section3 .container .cart{
+    background-color: #F7F6F2;
+    border: 1px solid green;
+    margin: 2px 120px 120px 120px;
+
+}
+
+#section3 .container .cart .item{
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#section4{
+    background-color: rgb(19, 19, 54);
+}
+
+#section4 .container{
+    padding: 120px 120px 30px 120px;
+    color: aliceblue;
+}
+#section4 .container .cart1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section4 .container .cart2{
+   
+    margin-top: 80px;
+}
+
+#section4 .container .cart2 h6{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
